@@ -8,8 +8,8 @@ eyeTL.to(eye_inner, 3, {x:+10, ease: Power2.easeInOut});
 eyeTL.to(pupil, 0.5, {scale: 0.80, transformOrigin: 'pupil'});
 eyeTL.to(pupil, 0.5, {scale: 1, transformOrigin: 'pupil'}, '+=1.5');
 eyeTL.to(eye_inner, 3, {x:-10, ease: Power2.easeInOut});
-eyeTL.to(pupil, 0.5, {scale: 0.75, transformOrigin: 'center'});
-eyeTL.to(pupil, 0.5, {scale: 1, transformOrigin: 'center'}, '+=1.5');
+eyeTL.to(pupil, 0.5, {scale: 0.75, transformOrigin: 'pupil'});
+eyeTL.to(pupil, 0.5, {scale: 1, transformOrigin: '[pupil'}, '+=1.5');
 eyeTL.to(eye_inner, 3, {x:0, ease: Power2.easeInOut});
 
 glassTL.to(glass, 3, {x:+16, ease: Power2.easeInOut});
