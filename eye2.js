@@ -16,4 +16,4 @@ glassTL.to(glass, 3, {x:+16, ease: Power2.easeInOut});
 glassTL.to(glass, 3, {x:-8, ease: Power2.easeInOut}, '+=2');
 glassTL.to(glass, 3, {x:0, ease: Power2.easeInOut}, '+=2');
 
-textTL.to(text_nexa, 16, {y:-550});
+textTL.to(nexa_layer, 16, {y:-550});
